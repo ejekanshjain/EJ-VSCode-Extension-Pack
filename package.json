@@ -35,6 +35,7 @@
         "eamodio.gitlens",
         "ej.react-node-snippets",
         "humao.rest-client",
+        "mongodb.mongodb-vscode",
         "mikestead.dotenv",
         "ms-azuretools.vscode-docker",
         "ms-vsliveshare.vsliveshare",
