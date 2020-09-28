@@ -1,7 +1,7 @@
 {
     "name": "ej-vscode-extension-pack",
     "displayName": "EJ's VSCode Extension Pack",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "keywords": [
         "snippets",
         "react",
