@@ -1,7 +1,7 @@
 {
     "name": "ej-vscode-extension-pack",
     "displayName": "EJ's VSCode Extension Pack",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "keywords": [
         "snippets",
         "react",
@@ -29,6 +29,7 @@
         "aaron-bond.better-comments",
         "adpyke.codesnap",
         "aeschli.vscode-css-formatter",
+        "ahmadawais.shades-of-purple",
         "CoenraadS.bracket-pair-colorizer-2",
         "dbaeumer.vscode-eslint",
         "dracula-theme.theme-dracula",
@@ -38,6 +39,7 @@
         "mongodb.mongodb-vscode",
         "mikestead.dotenv",
         "ms-azuretools.vscode-docker",
+        "ms-vscode-remote.remote-containers",
         "ms-vsliveshare.vsliveshare",
         "naumovs.color-highlight",
         "PKief.material-icon-theme",
