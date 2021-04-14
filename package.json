@@ -1,47 +1,46 @@
 {
-    "name": "ej-vscode-extension-pack",
-    "displayName": "EJ's VSCode Extension Pack",
-    "version": "0.0.6",
-    "keywords": [
-        "snippets",
-        "react",
-        "node",
-        "javascript"
-    ],
-    "license": "MIT",
-    "author": "Ekansh Jain",
-    "publisher": "ej",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack.git"
-    },
-    "bugs": {
-        "url": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack/issues"
-    },
-    "homepage": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack#readme",
-    "engines": {
-        "vscode": "^1.48.0"
-    },
-    "categories": [
-        "Extension Packs"
-    ],
-    "extensionPack": [
-        "aaron-bond.better-comments",
-        "adpyke.codesnap",
-        "aeschli.vscode-css-formatter",
-        "CoenraadS.bracket-pair-colorizer-2",
-        "dbaeumer.vscode-eslint",
-        "dracula-theme.theme-dracula",
-        "eamodio.gitlens",
-        "ej.react-node-snippets",
-        "humao.rest-client",
-        "mikestead.dotenv",
-        "ms-azuretools.vscode-docker",
-        "ms-vsliveshare.vsliveshare",
-        "naumovs.color-highlight",
-        "PKief.material-icon-theme",
-        "ritwickdey.LiveServer",
-        "RobbOwen.synthwave-vscode",
-        "WallabyJs.quokka-vscode"
-    ]
+  "name": "ej-vscode-extension-pack",
+  "displayName": "EJ's VSCode Extension Pack",
+  "version": "0.0.7",
+  "keywords": [
+    "snippets",
+    "react",
+    "node",
+    "javascript"
+  ],
+  "license": "MIT",
+  "author": "Ekansh Jain",
+  "publisher": "ej",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack/issues"
+  },
+  "homepage": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack#readme",
+  "engines": {
+    "vscode": "^1.48.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [
+    "aaron-bond.better-comments",
+    "adpyke.codesnap",
+    "CoenraadS.bracket-pair-colorizer-2",
+    "naumovs.color-highlight",
+    "mikestead.dotenv",
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "ritwickdey.LiveServer",
+    "ms-vsliveshare.vsliveshare",
+    "PKief.material-icon-theme",
+    "esbenp.prettier-vscode",
+    "WallabyJs.quokka-vscode",
+    "ej.react-node-snippets",
+    "humao.rest-client",
+    "RobbOwen.synthwave-vscode",
+    "bradlc.vscode-tailwindcss"
+  ]
 }
