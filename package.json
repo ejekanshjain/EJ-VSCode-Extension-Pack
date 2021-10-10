@@ -1,7 +1,7 @@
 {
   "name": "ej-vscode-extension-pack",
   "displayName": "EJ's VSCode Extension Pack",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "EJ's VSCode Extension Pack",
   "scripts": {
     "package": "vsce package"
@@ -14,7 +14,8 @@
     "snippets",
     "react",
     "node",
-    "javascript"
+    "javascript",
+    "ej"
   ],
   "author": "Ekansh Jain",
   "publisher": "ej",
@@ -32,7 +33,6 @@
   "extensionPack": [
     "aaron-bond.better-comments",
     "CoenraadS.bracket-pair-colorizer-2",
-    "adpyke.codesnap",
     "naumovs.color-highlight",
     "mikestead.dotenv",
     "dbaeumer.vscode-eslint",
@@ -48,6 +48,6 @@
     "bradlc.vscode-tailwindcss"
   ],
   "devDependencies": {
-    "vsce": "^1.87.1"
+    "vsce": "^1.100.1"
   }
 }
