@@ -1,7 +1,7 @@
 {
   "name": "ej-vscode-extension-pack",
   "displayName": "EJ's VSCode Extension Pack",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "EJ's VSCode Extension Pack",
   "scripts": {
     "package": "vsce package"
@@ -25,29 +25,23 @@
   },
   "homepage": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack#readme",
   "engines": {
-    "vscode": "^1.55.0"
+    "vscode": "^1.63.0"
   },
   "categories": [
     "Extension Packs"
   ],
   "extensionPack": [
     "aaron-bond.better-comments",
-    "CoenraadS.bracket-pair-colorizer-2",
     "naumovs.color-highlight",
     "mikestead.dotenv",
     "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
     "graphql.vscode-graphql",
-    "ms-vsliveshare.vsliveshare",
     "PKief.material-icon-theme",
     "esbenp.prettier-vscode",
-    "WallabyJs.quokka-vscode",
-    "ej.react-node-snippets",
-    "humao.rest-client",
-    "RobbOwen.synthwave-vscode",
-    "bradlc.vscode-tailwindcss"
+    "RobbOwen.synthwave-vscode"
   ],
   "devDependencies": {
-    "vsce": "^1.100.1"
+    "vsce": "^2.5.1"
   }
 }
