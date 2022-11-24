@@ -1,7 +1,7 @@
 {
   "name": "ej-vscode-extension-pack",
   "displayName": "EJ's VSCode Extension Pack",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "EJ's VSCode Extension Pack",
   "scripts": {
     "package": "vsce package"
@@ -10,6 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack.git"
   },
+  "bugs": {
+    "url": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack/issues"
+  },
+  "homepage": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack#readme",
   "keywords": [
     "snippets",
     "react",
@@ -20,12 +24,8 @@
   "author": "Ekansh Jain",
   "publisher": "ej",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack/issues"
-  },
-  "homepage": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack#readme",
   "engines": {
-    "vscode": "^1.66.0"
+    "vscode": "^1.73.0"
   },
   "categories": [
     "Extension Packs"
@@ -35,14 +35,18 @@
     "naumovs.color-highlight",
     "mikestead.dotenv",
     "dbaeumer.vscode-eslint",
+    "GitHub.copilot",
     "eamodio.gitlens",
-    "graphql.vscode-graphql",
+    "GraphQL.vscode-graphql",
+    "GraphQL.vscode-graphql-syntax",
     "PKief.material-icon-theme",
     "esbenp.prettier-vscode",
+    "Prisma.prisma",
+    "ahmadawais.shades-of-purple",
     "RobbOwen.synthwave-vscode",
     "bradlc.vscode-tailwindcss"
   ],
   "devDependencies": {
-    "vsce": "^2.7.0"
+    "vsce": "^2.14.0"
   }
 }
