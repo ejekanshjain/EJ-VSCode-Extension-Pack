@@ -1,7 +1,7 @@
 {
   "name": "ej-vscode-extension-pack",
   "displayName": "EJ's VSCode Extension Pack",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "EJ's VSCode Extension Pack",
   "scripts": {
     "package": "vsce package"
@@ -15,17 +15,19 @@
   },
   "homepage": "https://github.com/ejekanshjain/EJ-VSCode-Extension-Pack#readme",
   "keywords": [
-    "snippets",
-    "react",
     "node",
     "javascript",
-    "ej"
+    "typescript",
+    "prisma",
+    "graphql",
+    "ej",
+    "extension"
   ],
   "author": "Ekansh Jain",
   "publisher": "ej",
   "license": "MIT",
   "engines": {
-    "vscode": "^1.77.0"
+    "vscode": "^1.82.0"
   },
   "categories": [
     "Extension Packs"
@@ -45,9 +47,10 @@
     "Prisma.prisma",
     "ahmadawais.shades-of-purple",
     "RobbOwen.synthwave-vscode",
-    "bradlc.vscode-tailwindcss"
+    "bradlc.vscode-tailwindcss",
+    "rangav.vscode-thunder-client"
   ],
   "devDependencies": {
-    "vsce": "^2.14.0"
+    "@vscode/vsce": "^2.21.0"
   }
 }
