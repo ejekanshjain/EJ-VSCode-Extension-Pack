@@ -1,7 +1,7 @@
 {
   "name": "ej-vscode-extension-pack",
   "displayName": "EJ's VSCode Extension Pack",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "description": "EJ's VSCode Extension Pack",
   "scripts": {
     "package": "vsce package"
@@ -18,8 +18,7 @@
     "node",
     "javascript",
     "typescript",
-    "prisma",
-    "graphql",
+    "python",
     "ej",
     "extension"
   ],
@@ -34,16 +33,20 @@
   ],
   "extensionPack": [
     "aaron-bond.better-comments",
+    "astral-sh.ty",
     "bradlc.vscode-tailwindcss",
+    "charliermarsh.ruff",
     "dbaeumer.vscode-eslint",
     "eamodio.gitlens",
     "esbenp.prettier-vscode",
-    "github.copilot-chat",
     "golang.go",
     "hashicorp.terraform",
     "humao.rest-client",
+    "ms-python.debugpy",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "ms-python.vscode-python-envs",
     "naumovs.color-highlight",
-    "oven.bun-vscode",
     "pkief.material-icon-theme",
     "rangav.vscode-thunder-client",
     "robbowen.synthwave-vscode",
@@ -51,6 +54,6 @@
     "yoavbls.pretty-ts-errors"
   ],
   "devDependencies": {
-    "@vscode/vsce": "^3.7.1"
+    "@vscode/vsce": "^3.9.2"
   }
 }
